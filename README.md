@@ -1,6 +1,6 @@
 # andras-hypermodern-python
 
-A repo following the excellent article here: 
+A repo following the excellent article here:
 https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 
 
@@ -16,6 +16,5 @@ eval "$(pyenv virtualenv-init -)"
 
 Installing poetry following the instructions on their GitHub project page:
 ```
-curl -sSL https://install.python-poetry.org | python 
+curl -sSL https://install.python-poetry.org | python
 ```
-
