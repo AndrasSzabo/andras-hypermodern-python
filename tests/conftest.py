@@ -1,3 +1,4 @@
+"""Package-wide text fixtures."""
 from unittest.mock import Mock
 
 import pytest
@@ -8,6 +9,7 @@ from pytest_mock import MockFixture
 
 @pytest.fixture
 def mock_requests_get(mocker: MockFixture) -> Mock:
+    """Fixture for mocking requests.get."""
     mock = mocker.patch("requests.get")
     # The following is how the response json data is returned by the requests package.
     # (it seems quite complicated, the article looks under the hood for this chain-call)
