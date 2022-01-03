@@ -1,5 +1,7 @@
 # andras-hypermodern-python
 
+[![Tests](https://github.com/AndrasSzabo/andras-hypermodern-python/workflows/Tests/badge.svg)](https://github.com/AndrasSzabo/andras-hypermodern-python/actions?workflow=Tests)
+
 A repo following the excellent article here:
 https://medium.com/@cjolowicz/hypermodern-python-d44485d9d769
 
